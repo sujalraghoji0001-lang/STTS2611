@@ -1,0 +1,27 @@
+# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Virtual Environments
+venv/
+env/
+
+# StyleTTS2 cloned repo and models
+StyleTTS2/
+tmp_repo/
+StyleTTS2-LibriTTS/
+Models/
+*.pth
+*.t7
+
+# Audio data and text lists
+Data/
+*.wav
+*.flac
+train_list.txt
+val_list.txt
+OOD_texts.txt
